@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Computador {
-    nome = "nome";
-    ram = 8;
-    cpu = 16;
-    ligado = true;
+    nome;
+    ram;
+    cpu;
+    ligado;
     constructor(nome, ram, cpu, ligado) {
         this.nome = nome;
         this.ram = ram;
