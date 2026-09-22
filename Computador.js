@@ -24,6 +24,26 @@ class Computador {
     desligar() {
         this.ligado = false;
     }
+    getNome() {
+        return this.nome;
+    }
+    setNome(nome) {
+        if (!nome || nome == null) {
+            return false;
+        }
+        this.nome = nome;
+        return true;
+    }
+    getRam() {
+        return this.ram;
+    }
+    setRam(ram) {
+        if (this.ram < 0 || this.ram > 1000) {
+            return false;
+        }
+        this.ram = ram;
+        return true;
+    }
 }
 const comp1 = new Computador("Sansung", 16, 128.5, true);
 const comp2 = new Computador("Apple", 32, 124.3, false);
