@@ -31,4 +31,12 @@ const comp3 = new Computador("Microsoft", 8, 134.5, true);
 comp1.informacao();
 comp2.informacao();
 comp3.informacao();
+comp1.ligar();
+comp1.informacao();
+comp1.desligar();
+comp1.informacao();
+comp2.ligar();
+comp2.informacao();
+comp2.desligar();
+comp2.informacao();
 //# sourceMappingURL=Computador.js.map
